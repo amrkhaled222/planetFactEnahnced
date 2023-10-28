@@ -1,0 +1,79 @@
+.PlanetDetailsContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	.factContainer {
+		display: flex;
+		border: 1px solid rgba(255, 255, 255, 0.3);
+		justify-content: space-between;
+		align-items: center;
+		padding: 1rem;
+		width: 80vw;
+		max-width: 400px;
+		h5,
+		h6 {
+			margin: 0;
+			color: white;
+		}
+		&--smallHeading {
+			color: #fff;
+			font-family: "League Spartan", sans-serif;
+			font-size: 8px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 16px; /* 200% */
+			letter-spacing: 0.727px;
+			text-transform: uppercase;
+			opacity: 0.5;
+		}
+		&--data {
+			color: #fff;
+			text-align: right;
+			font-family: "Antonio", sans-serif;
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			letter-spacing: -0.75px;
+			text-transform: uppercase;
+		}
+	}
+}
+@media (min-width: 600px) and (max-width: 950px) {
+	.PlanetDetailsContainer {
+		flex-direction: row;
+		padding: 1rem 2rem 2rem;
+		margin: 0;
+		.factContainer {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+	}
+}
+@media (min-width: 950px) {
+	.PlanetDetailsContainer {
+		max-width: 1440px;
+		flex-direction: row;
+		padding: 1rem 2rem 3rem;
+		margin: auto;
+		gap: 30px;
+		padding: 1rem 2rem;
+		margin: 0 auto;
+		.factContainer {
+			flex-direction: column;
+			max-width: 255px;
+			min-height: 128px;
+			align-items: flex-start;
+			justify-content: center;
+			gap: 10px;
+			&--data {
+				font-size: 40px;
+			}
+			&--smallHeading {
+				font-size: 11px;
+			}
+		}
+	}
+}
