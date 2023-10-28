@@ -32,17 +32,15 @@ Users should be able to:
 
 ![](./desktopDesign.png.jpg)
 ![](./mobileDesign.png)
-![](./mobileMenu.png)
 ![](./tabletDesign.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-<<<<<<< HEAD
+
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-=======
-- Live Site URL: [([https://your-live-site-url.com](https://planet-fact-h74c-p954wsqox-amr-khaleds-projects.vercel.app/))]
->>>>>>> 2fa19519f4314f01389335d047f346ed796dcb75
+
+- Live Site URL: []
 
 ### Built with
 
