@@ -9,7 +9,7 @@ export default function PlanetDetails(data) {
 			{planetdataKeys.map((e, i) => {
 				return (
 					<motion.div
-						// whileInView={{ opacity: [0, 1], x: [-100, 0] }}
+						whileInView={{ opacity: [0, 1], x: [-100, 0] }}
 						transition={{ duration: 0.5 }}
 						className="factContainer"
 						key={i * i}>
