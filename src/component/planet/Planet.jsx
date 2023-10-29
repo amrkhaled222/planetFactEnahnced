@@ -119,7 +119,7 @@ export default function Planet(data) {
 					}}
 					onClick={handlebutton}
 					value="structure">
-					{!isitmobile && ` ${(<span>02</span>)} internal`}  structure
+{!isitmobile && <span>02</span>} {!isitmobile && "internal"}structure
 				</button>
 				<button
 					style={{
@@ -133,7 +133,7 @@ export default function Planet(data) {
 					}}
 					onClick={handlebutton}
 					value="geology">
-					{!isitmobile && `${(<span>03</span>)} surface`} geology
+					{!isitmobile && <span>03</span>} {!isitmobile && "surface"} geology
 				</button>
 			</div>
 		);
