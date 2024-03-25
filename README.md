@@ -36,11 +36,11 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/amrkhaled222/planetFactEnahnced)
+- Solution URL: [(https://github.com/amrkhaled222/planetFactEnahnced)]
 
-- Live Site URL: [Add live site URL here](https://planet-fact-enahnced.vercel.app/)
+- Live Site URL: [(https://planet-fact-enahnced.vercel.app/)]
 
-- Live Site URL: []
+
 
 ### Built with
 
